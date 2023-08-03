@@ -1,0 +1,17 @@
+.active {
+  border-bottom: 2px solid black;
+  color: black;
+}
+#nav-links {
+}
+#burger-menu {
+  display: none;
+}
+@media (max-width: 1010px) {
+  #nav-links {
+    display: none;
+  }
+  #burger-menu {
+    display: block;
+  }
+}
